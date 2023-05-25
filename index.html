@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"  type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <title>GPACalcy</title>
+</head>
+<body>
+    <main>
+        <section class="upbar">
+            <h1 style="text-align: center; color: #ffffff;letter-spacing: 1px;">GPA Calculator</h1>
+        </section>
+        <section id="content">
+            <div id="table">
+                <div id="mark">
+                    <span>Marks :</span>  
+                    <input type="number"   placeholder="out of 100" id="scores" class="input" style="width: 50%;">
+
+                </div>
+                <div id="cred">
+                    <span>Credits :</span>  
+                    <input type="number"   placeholder="credits" id="credits" class="input">
+
+                </div>      
+            </div><hr id="line">
+    
+        </section>
+        <section id="button">
+            <button id="addsub" onclick="newitem()">add subject</button>
+            <button id="addsub" onclick="cal()">Calculate</button>
+    
+        </section>
+        <section id="result">
+    
+        </section>
+        <h3 style="text-align: center; color: #014872;">Made with lust by <a href="https://charandevreddy.github.io/portfolio/">Charan Dev Reddy</a></h3>
+
+
+
+    </main>
+    
+    
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
