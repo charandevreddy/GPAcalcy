@@ -52,9 +52,10 @@ main{
 }
 
 #line{
-    width: 70%;
+    width: 100%;
     color: #014872;
     align-self: center;
+    
 }
 
 #addsub{
