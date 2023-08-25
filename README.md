@@ -1,6 +1,6 @@
 # GPAcalcy
-You can calculate yiur semester GPA through this if you college doesn't provide you with GPA
-like my college ;-;
+You can calculate your semester GPA through this if your college doesn't provide you with a GPA
+like my college;-;
 
 
-**It's in the scale of 10**
+**It's in a scale of 10**
